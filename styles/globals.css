@@ -285,7 +285,7 @@ background-size: 100% 100%;
 */
 
 *{
-scrollbar-color: #476c53!important;
+scrollbar-color: #476c53 transparent!important;
 }
 
 [id^="theme-"] {
