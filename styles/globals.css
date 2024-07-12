@@ -381,6 +381,10 @@ button.bg-indigo-700{
  display: none;
 }
 
+.border-indigo-500 {
+    --tw-border-opacity: 1;
+    border-color: #476c53!important;
+}
 
 #inner-wrapper > section:first-of-type {
     display:none;
