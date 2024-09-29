@@ -51,6 +51,9 @@ const Style = () => {
         scrollbar-width: thin;
         scrollbar-color: #4338ca transparent;
       }
+      .container-slot{
+        width:100%!important;
+      }
     `}</style>
   )
 }
