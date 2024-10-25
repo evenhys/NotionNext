@@ -389,3 +389,6 @@ button.bg-indigo-700{
 #inner-wrapper > section:first-of-type {
     display:none;
 }
+.notion-asset-wrapper-image img {
+    box-shadow: 1px 1px 9px #018bd46b;
+}
