@@ -311,7 +311,7 @@ background-size: 100% 100%;
 */
 
 *{
-scrollbar-color: #476c53 transparent!important;
+scrollbar-color: #2584d5 transparent!important;
 }
 
 [id^="theme-"] {
@@ -320,29 +320,29 @@ font-family: LXGW WenKai;
 
 /* 导航栏签颜色 */
 #sticky-nav.bg-indigo-700 {
-    background-color: #476c53;
+    background-color: #2584d5;
 }
 
 /* 夜间模式导航栏签颜色 */
 .dark div#sticky-nav {
- background-color: #476c53;;
+ background-color: #2584d5;;
 }
 
 
 /* 首页开始阅读按钮 */
 .glassmorphism.w-40.z-40 {
-    background-color: #476c53;
+    background-color: #2584d5;
     border: none;
 }
 
 /* 标签颜色 */
 a.cursor-pointer.bg-indigo-700 {
-    background-color: #476c53;
+    background-color: #2584d5;
 }
 
 /* 移动端侧边栏 */
 #side-bar>.bg-indigo-700 {
-    background-color: #476c53;
+    background-color: #2584d5;
 }
 
 /* 移动端侧边栏菜单 */
@@ -353,12 +353,12 @@ nav div:hover {
 
 /* 悬浮菜单 */
 .right-2 .bg-indigo-700 {
-    background-color: #476c53;
+    background-color: #2584d5;
 }
 
 /* 目录进度条 */
 .h-4.bg-indigo-400 {
-    background-color: #476c53;
+    background-color: #2584d5;
 }
 
 /* 目录文字高亮 */
@@ -368,12 +368,12 @@ nav .text-green-500{
 
 /* 网站页脚 */ 
 footer.bg-indigo-700{
-    background-color: #476c53;
+    background-color: #2584d5;
 }
 
 /* 翻页按钮 */
 button.bg-indigo-700{
-    background-color: #476c53;
+    background-color: #2584d5;
 }
 
 /* 文章页隐藏发布时间 */
