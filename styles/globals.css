@@ -347,7 +347,7 @@ a.cursor-pointer.bg-indigo-700 {
 
 /* 移动端侧边栏菜单 */
 nav div:hover {
-    background-color: #476c53!important;
+    background-color: #2584d5!important;
    color:#eeeeee;
 }
 
@@ -363,7 +363,7 @@ nav div:hover {
 
 /* 目录文字高亮 */
 nav .text-green-500{
-    color: #476c53;
+    color: #2584d5;
 }
 
 /* 网站页脚 */ 
