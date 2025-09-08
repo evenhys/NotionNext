@@ -409,13 +409,13 @@ button.bg-indigo-700{
 
 .border-indigo-500 {
     --tw-border-opacity: 1;
-    border-color: #476c53!important;
+    border-color: #2584d5!important;
 }
 
 #inner-wrapper > section:first-of-type {
     display:none;
 }
 .notion-asset-wrapper-image img, .medium-zoom-image.medium-zoom-image--opened {
-    box-shadow: 1px 1px 9px #436e29eb;
+    box-shadow: 1px 1px 9px #2584d5eb;
 }
 ul.whitespace-nowrap{display:none;}
