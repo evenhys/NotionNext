@@ -310,112 +310,21 @@ background-size: 100% 100%;
 }
 */
 
-*{
-scrollbar-color: #476c53 transparent!important;
-}
-
-[id^="theme-"] {
-font-family: LXGW WenKai;
-}
-
-/* 导航栏签颜色 */
-#sticky-nav.bg-indigo-700 {
-    background-color: #476c53;
-}
-
-/* 夜间模式导航栏签颜色 */
-.dark div#sticky-nav {
- background-color: #476c53;;
-}
 
 
-/* 首页开始阅读按钮 */
-.glassmorphism.w-40.z-40 {
-    background-color: #476c53;
-    border: none;
-}
+const CONFIG = {
+  // 封面大图开启 
+  COMMERCE_HOME_BANNER_ENABLE: true,
 
-/* 标签颜色 */
-a.cursor-pointer.bg-indigo-700 {
-    background-color: #476c53;
+  COMMERCE_TEXT_CENTER_TITLE: 'Product Center', //中间产品区块标题
+  COMMERCE_TEXT_CENTER_DESCRIPTION:
+    'The vision of NotionNext is to help you effortlessly and seamlessly build your own website, amplifying the value of your brand.', // 中间产品区块文字描述
+  COMMERCE_TEXT_CENTER_CATEGORY_TITLE: 'Product Categories', //左侧产品分类标题
+  COMMERCE_TEXT_FOOTER_TITLE: 'Contact US', // COMMERCE主题页脚文案标题；按Shift+Enter键可以换行
+  COMMERCE_TEXT_FOOTER_MENU_1: 'Product Center', //COMMERCE主题页脚左侧菜单标题1
+  COMMERCE_TEXT_FOOTER_MENU_2: 'About US', //COMMERCE主题页脚左侧菜单标题2
+  COMMERCE_HOME_POSTS_COUNT: 9, //首页展示商品数
+  COMMERCE_CONTACT_WHATSAPP_SHOW: true, //是否展示whatsapp联系按钮 请配置 CONTACT_WHATSAPP
+  COMMERCE_CONTACT_TELEGRAM_SHOW: true //联系栏展示telegram按钮 请配置 CONTACT_TELEGRAM
 }
-
-/* 移动端侧边栏 */
-#side-bar>.bg-indigo-700 {
-    background-color: #476c53;
-}
-
-/* 移动端侧边栏菜单 */
-nav div:hover {
-    background-color: #476c53!important;
-   color:#eeeeee;
-}
-
-/* 悬浮菜单 */
-.right-2 .bg-indigo-700 {
-    background-color: #476c53;
-}
-
-/* 目录进度条 */
-.h-4.bg-indigo-400 {
-    background-color: #476c53;
-}
-
-/* 目录文字高亮 */
-nav .text-green-500{
-    color: #476c53;
-}
-
-/* 网站页脚 */ 
-footer.bg-indigo-700{
-    background-color: #476c53;
-}
-
-/* 翻页按钮 */
-button.bg-indigo-700{
-    background-color: #476c53;
-}
-
-/* 文章页隐藏发布时间 */
-#article-wrapper > div.wow.fadeInUp.px-10 > section > div.flex.flex-wrap.gap-3.mt-5.text-sm > a {
-  display: none;
-}
-
-
-/* 文章页隐藏发布时间 */
-#article-wrapper > div.wow.fadeInUp.px-10 > section > div.flex.flex-wrap.gap-3.mt-5.text-sm > a {
-  display: none;
-}
-
-/* 文章页隐藏更新时间 */
-#article-wrapper > div.wow.fadeInUp.px-10 > section > div.flex.flex-wrap.gap-3.mt-5.text-sm > span.whitespace-nowrap {
-  display: none;
-}
-
-/* 文章页隐藏阅读次数 */
-#article-wrapper .busuanzi_container_page_pv {
-  display: none ！important;
-}
-
-/* 文章页隐藏字数 */
-#wordCountWrapper > span:nth-child(1){
- display: none !important;
-}
-
-/* 文章页隐藏阅读时长 */
-#wordCountWrapper > span:nth-child(2){
- display: none;
-}
-
-.border-indigo-500 {
-    --tw-border-opacity: 1;
-    border-color: #476c53!important;
-}
-
-#inner-wrapper > section:first-of-type {
-    display:none;
-}
-.notion-asset-wrapper-image img, .medium-zoom-image.medium-zoom-image--opened {
-    box-shadow: 1px 1px 9px #436e29eb;
-}
-ul.whitespace-nowrap{display:none;}
+export default CONFIG
